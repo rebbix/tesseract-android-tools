@@ -1,3 +1,41 @@
+# Tesseract Android Tools
+
+## Requirements
+* Download and install [Android NDK](http://developer.android.com/tools/sdk/ndk/index.html)
+
+
+## Installation
+
+* Clone the repository and `cd` to it:
+```
+$ git clone https://github.com/rebbix/tesseract-android-tools.git
+$ cd tesseract-android-tools/tesseract-android-tools
+```
+
+* Download required libraries:
+```
+$ ./dependencies.sh
+```
+
+* Build using NDK:
+```
+$ /path/to/ndk/installation/ndk-build
+```
+
+
+## Language Files
+You can optionally download language files, most probably you will need at least one to work with.
+
+
+## Usage
+
+
+
+
+-----------------------
+
+
+## Old (original) README
 This project contains tools for compiling the Tesseract and Leptonica
 libraries for use on the Android platform. It contains an Eclipse Android
 library project that provides a Java API for accessing natively-compiled
